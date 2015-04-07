@@ -5,6 +5,9 @@
  * @copyright Copyright (c) 2011, Mike Cao <mike@mikecao.com>
  * @license   MIT, http://www.opensource.org/licenses/mit-license.php
  */
+ 
+use PDO;
+
 class Sparrow {
     protected $table;
     protected $where;
