@@ -6,7 +6,7 @@
  * @license   MIT, http://www.opensource.org/licenses/mit-license.php
  */
  
-use PDO;
+use \PDO;
 
 class Sparrow {
     protected $table;
