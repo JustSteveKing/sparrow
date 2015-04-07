@@ -935,7 +935,7 @@ class Sparrow {
         else {
             switch ($this->db_type) {
                 case 'pdo':
-                    $data = $result->fetchAll(PDO::FETCH_ASSOC);
+                    $data = $result->fetchAll(PDO::FETCH_OBJ);
                     $this->num_rows = sizeof($data);
  
                     break;
