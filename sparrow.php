@@ -7,6 +7,7 @@
  */
  
 use \PDO;
+use \Exception;
 
 class Sparrow {
     protected $table;
